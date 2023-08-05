@@ -1,38 +1,13 @@
-# create-svelte
+# Tab Icons
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+![Netlify Status](https://api.netlify.com/api/v1/badges/27d1cc2d-cc9b-4018-a86f-cf9d0796cf3e/deploy-status)
 
-## Creating a project
+https://tab-icons.netlify.app/ provides tabs with custom icons.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Contributing
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+All icon assets go in the [assets/icons](https://github.com/amosyu2000/tab-icons/tree/main/src/lib/assets/icons) folder, and must be 128x128 `.ico` files. Convert `.png` images to `.ico` images [here](https://convertico.com/).
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## License
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+MIT

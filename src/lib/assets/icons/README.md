@@ -1,1 +1,0 @@
-Convert PNG images to 128x128 ICO images at https://convertico.com/.
