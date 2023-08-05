@@ -1,14 +1,13 @@
 <script>
 	import { page } from '$app/stores'
+	import iconPaths from '$lib/assets/icons'
 
 	// import all icons from assets
 	const icons = {}
-	const iconModules = import.meta.glob('$lib/assets/icons/*.ico', { eager: true })
-	for (const path in iconModules) {
-		const name = path.substring(0, path.lastIndexOf(".")).split('/').pop()
+	Object.entries(iconPaths).forEach(([name, path]) => {
 		const id = name.toLowerCase().split(" ").join("-")
 		icons[id] = {path, name}
-	}
+	})
 
 	$: hash = decodeURIComponent($page.url.hash.slice(1))
 
