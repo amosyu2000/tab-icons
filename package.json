@@ -1,6 +1,7 @@
 {
 	"name": "tab-icons",
 	"version": "0.0.1",
+	"homepage": "https://amosyu2000.github.io/",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -9,6 +10,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
 		"svelte": "^4.0.5",
 		"vite": "^4.4.2"
