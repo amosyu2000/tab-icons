@@ -1,7 +1,6 @@
-import Folder from './Folder.ico'
-import Svelte from './Svelte.ico'
+const module = {}
 
-export default {
-	Folder,
-	Svelte,
-}
+import Folder from './Folder.ico'; module.Folder = Folder
+import Svelte from './Svelte.ico'; module.Svelte = Svelte
+
+export default module
