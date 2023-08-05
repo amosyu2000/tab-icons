@@ -15,8 +15,5 @@
 		"svelte": "^4.0.5",
 		"vite": "^4.4.2"
 	},
-	"type": "module",
-	"dependencies": {
-		"fs": "^0.0.1-security"
-	}
+	"type": "module"
 }
