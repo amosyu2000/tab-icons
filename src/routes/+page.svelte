@@ -2,9 +2,9 @@
 	import { page } from '$app/stores'
 	import icons from '$lib/assets/icons'
 
-	const slug = $page.params.slug
+	$: hash = $page.url.hash.slice(1)
 
-	let tabIcon = icons[slug]
+	$: tabIcon = icons[hash] || {}
 </script>
 
 <svelte:head>
